@@ -207,7 +207,7 @@ function mutate(a){
 function epedemic(a,b){
 	let chanse= Math.random()*100;
 	if(chanse<epChanse){
-		alert("Epedemy is coming");
+		//alert("Epedemy is coming");
 
 		//find the most immuneless
 
