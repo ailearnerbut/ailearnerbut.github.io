@@ -1,0 +1,132 @@
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v6/NaPecZTIAOhVxoMyOr9n_E7fdM3mDbRS.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v6/NaPecZTIAOhVxoMyOr9n_E7fdMPmDQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+*{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background: #171414;
+	font-family: 'Titillium Web', sans-serif;
+}
+#cvs{
+	left:0;
+	right:0;
+	position: absolute;
+	margin:0 auto;
+	margin-top:16vh;
+	border: 1px solid white;
+}
+.box{
+	width:200px;
+	height: 200px;
+	margin-top: 40vh;
+	border:1px solid white;
+	position: absolute;
+	text-align: center;	
+}
+.block{
+	height: 60px;
+	width: 150px;
+	background: #db7c4d;
+	color:#a19595;
+	position: absolute;
+	left:-75px;
+	color:black;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 10px;
+}
+#left{
+	margin-left: 7%;
+}
+#rigth{
+	margin-left: 80%;
+}
+.str{
+	margin-top: 20%;
+	font-size: 36px;
+	color:#a19595;
+}
+.value{
+	margin-top: 10%;
+	font-size: 40px;
+	color:#a19595;
+}
+.sliders{
+	height: 220px;
+	margin-top: 25vh;
+	position: absolute;
+	width: 15px;
+	left:-10px;
+}
+#sl1, #sl5,#block1,#block5{
+	margin-left: 7%;
+}
+#sl2,#sl7,#block2,#block7{
+	margin-left: 24%;
+}
+#sl3,#block3{
+	margin-left: 75%;
+}
+#sl4, #sl6,#block4, #block6{
+	margin-left: 92%;
+}
+#sl5,#sl6,#sl7{
+	margin-top: 50vh;
+}
+#block1,#block2,#block3,#block4{
+	margin-top: 17vh;
+}
+#block6,#block7,#block5{
+	margin-top: 73vh;
+}
+#wrapper{
+	height: 100vh;
+	width: 100vw;
+}
+.active{
+	background: #171414;
+	display: block;
+}
+.inactive{
+	display: none;
+}
+#improve{
+	margin-left: 80%;
+	margin-top: 70vh;
+	height: 130px;
+	width: 200px;
+	border: 1px solid white;
+	position: absolute;
+	color:#a19595;
+	text-align: center;
+	font-size: 20px;
+}
+#button{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.gosettings{
+	background-image: url(arrowL.png);
+}
+.gomain{
+	background-image: url(arrowR.png);
+}
